@@ -149,6 +149,7 @@ function sacramentTime() {
       if (data.Result == "200") {
          $("#sacrament").show();
          $("#preview").hide();
+         $("#blank").hide();
       }
    });
 }
@@ -158,6 +159,7 @@ function speakerTime() {
       if (data.Result == "200") {
          $("#sacrament").hide();
          $("#preview").show();
+         $("#blank").hide();
       }
    });
 }
@@ -167,6 +169,7 @@ function blankTime() {
       if (data.Result == "200") {
          $("#sacrament").hide();
          $("#preview").hide();
+         $("#blank").show();
       }
    });
 }
