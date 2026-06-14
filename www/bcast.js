@@ -89,7 +89,7 @@ function getStatus() {
          $('#preview').hide();
          $("#blank").hide();
       } else if (data.currentScene == "Blank") {
-         $('#sacrament').show();
+         $('#sacrament').hide();
          $('#preview').hide();
          $("#blank").show();
       }
