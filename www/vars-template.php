@@ -1,6 +1,6 @@
 <?php
 
-$path = "/opt/bcst-control/python/";
+$path = "/opt/bcast-control/python/";
 $config = "config.json";
 $set_scene = $path . "obs-setscene.py";
 $start_stream = $path . "obs-startstream.py";
