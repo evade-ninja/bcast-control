@@ -52,7 +52,8 @@ You will need to add a directive to the site configs:
 ```bash
 # Enable SSL site
 sudo a2enmod ssl
-sudo a2ensite default-ssl.conf
+a2dissite 000-default
+sudo a2ensite bcast
 sudo systemctl restart apache2
 ```
 
