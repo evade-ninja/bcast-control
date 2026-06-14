@@ -83,9 +83,15 @@ function getStatus() {
       if (data.currentScene == "Broadcast"){
          $('#sacrament').hide();
          $('#preview').show();
+         $("#blank").hide();
       }else if (data.currentScene == "Sacrament") {
          $('#sacrament').show();
          $('#preview').hide();
+         $("#blank").hide();
+      } else if (data.currentScene == "Blank") {
+         $('#sacrament').show();
+         $('#preview').hide();
+         $("#blank").show();
       }
 
 
