@@ -1,6 +1,6 @@
 #!/bin/bash
 sleep 10
 while true; do
-	/var/www/obs-capture.py 1
+	/opt/bcast-control/python/obs-capture.py 1
 	sleep 3
 done

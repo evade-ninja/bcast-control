@@ -61,3 +61,11 @@ Place files from the www in your webserver directory, and place the python files
 
 Python:
 Needs Python3 and the obs-websocket-py package
+
+## Configuration
+
+Edit /opt/bcast-control/vars.php with the appropriate data
+
+## Ramdisk
+
+`ram /ram tmpfs defaults,size=128m,x-gvfs-show 0 0`
