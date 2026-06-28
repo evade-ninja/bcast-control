@@ -1,4 +1,5 @@
 config.json
+config*
 .DS_Store
 cpy.sh
 *config.js*
